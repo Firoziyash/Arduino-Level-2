@@ -3,8 +3,8 @@
 #include <WebSocketsServer.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "JioFiber-5AaaE";
-const char* password = "@jayanisha12345@";
+const char* ssid = "Fiber";
+const char* password = "@12345678@";
 
 ESP8266WebServer server(80);
 WebSocketsServer webSocket = WebSocketsServer(81);
